@@ -1,0 +1,27 @@
+@import "main.scss";
+
+.bg {
+  z-index: -1;
+  background-image: url("../images/Else/LOG01.jpg");
+  background-size: cover;
+  background-position-y: 0px;
+  // height: 100vh;
+}
+main {
+  padding: 200px 0;
+  h5 {
+    color: #072a24;
+  }
+  form {
+    .form-control {
+      border-radius: 32px;
+    }
+  }
+
+  .signUpBox {
+    border-radius: 32px;
+    button {
+      border-radius: 32px;
+    }
+  }
+}
